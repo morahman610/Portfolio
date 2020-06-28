@@ -1,0 +1,43 @@
+.project {
+  height: 350px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #1a1a1a;
+  padding: 20px;
+}
+
+.projectsSection {
+  background-color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-gap: 150px;
+  padding: 100px 150px;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.languages {
+  color: white;
+}
+
+html {
+  background-color: #1a1a1a;
+}
+
+.description {
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 250px;
+  height: 350px;
+}
+
+.languages {
+  padding: 10px;
+}

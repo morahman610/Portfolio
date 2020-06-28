@@ -1,0 +1,28 @@
+.headline {
+  background-image: url(../../../assets/Images/city.jpg);
+  background-size: 100%;
+  text-align: center;
+  padding: 85px;
+}
+
+.profileImage {
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
