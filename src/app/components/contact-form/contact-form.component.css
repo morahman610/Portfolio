@@ -42,10 +42,10 @@ textarea {
   height: 300px;
 }
 
-button {
+.btn {
   width: 200px;
   padding: 10px;
-  margin: 2px;
+  margin: auto;
   border-radius: 10px;
   background-color: #333333;
   color: white;
