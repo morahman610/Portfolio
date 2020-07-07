@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contact-form.component.css">
 </head>
-<body>
 
-    <div>
-        <form #regForm='ngForm' (ngSubmit)="Send(regForm)">
+<body>
+    <div class="contactForm">
+        <form #regForm='ngForm' (ngSubmit)="Send(regForm)" action="POST" data-netlify="true">
             <div class="form-group">
-                    <label for="fullName">Full Name</label>
-                    <input ngModel name="fullName" id="fullName" type="text" class="form-control">
+                <label for="fullName">Full Name</label>
+                <input ngModel name="fullName" id="fullName" type="text" class="form-control" />
             </div>
             <div class="form-group">
-                    <label for="email">Email</label>
-                    <input ngModel name="email" id="email" type="text" class="form-control">
+                <label for="email">Email</label>
+                <input ngModel name="email" id="email" type="text" class="form-control">
             </div>
             <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input ngModel name="subject" id="subject" id="subject" type="text" class="form-control">
+                <label for="subject">Subject</label>
+                <input ngModel name="subject" id="subject" id="subject" type="text" class="form-control">
             </div>
             <div class="form-group">
-                    <label for="messageBody">Message</label>
-                    <textarea ngModel name="messageBody" id="messageBody" class="form-control"></textarea>
+                <label for="messageBody">Message</label>
+                <textarea ngModel name="messageBody" id="messageBody" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <div data-netlify-recaptcha="true"></div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </body>
+
 </html>
